@@ -83,6 +83,8 @@ export default class App extends Component {
                   description={element.description ? element.description.slice(0, 80) : ""}
                   imageurl={element.urlToImage}
                   newsUrl={element.url}
+                  author={element.author}
+                  date={element.publishedAt}
                 />
               </div>
             ))}

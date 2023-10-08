@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* Dark mode styles (from previous example) */
+:root {
+  --background-color: #222;
+  --text-color: white;
+  --link-color: #3498db;
+}
+
+/* Gradient styles for the navbar */
+.navbar {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(82, 82, 223, 1) 43%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+/* Set font color to white for elements inside the navbar */
+.navbar a.nav-link {
+  color: white;
+}
+
+.navbar a.nav-link:hover {
+  color: var(--link-color);
+}
