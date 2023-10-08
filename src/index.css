@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the container stretches to the full viewport height */
+}
+
+footer {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(204,178,208,1) 61%, rgba(42,132,150,1) 100%);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

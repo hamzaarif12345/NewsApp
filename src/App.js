@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Components/Navbar';
 import News from './Components/News';
+import Footer from './Components/Footer';
 //import About from './Components/About'; // Import the About component
 
 import {
@@ -32,6 +33,7 @@ export default class App extends Component {
             </Routes>
          
         </Router>
+        <Footer/>
       </div>
     )
   }
